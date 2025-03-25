@@ -59,20 +59,20 @@ Sample JSON Body:
     }
 
 4. Get User Tasks
-URL: GET /api/users/{user_id}/tasks/
+URL: GET http://127.0.0.1:8000/users/{user_id}/tasks/
 Replace {user_id} with the actual user ID.
 
 Description: Retrieves all tasks assigned to the specified user.
 
 
 5. List All Users
-URL: GET /api/users/
+URL: GET http://127.0.0.1:8000/users/
 
 Description: Retrieves a list of all registered users. Mainly useful to get the id's of the users but not their passwords.
 
 
 6. List All Tasks
-URL: GET /api/tasks/
+URL: GET http://127.0.0.1:8000/tasks/
 
 Description: Retrieves a list of all tasks. This is useful to get the id's of the tasks.
 
